@@ -24,6 +24,7 @@ class Test_homepage(BaseClass):
         homepage.clickSubmit().click()
         assert "Success" in homepage.getAlert().text
         self.driver.refresh()
+        print("msg")
 
 
 
